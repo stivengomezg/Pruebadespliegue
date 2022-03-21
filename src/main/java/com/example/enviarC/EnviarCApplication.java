@@ -37,7 +37,7 @@ private EmailService emailService;
 
 
 		int numeroInicialS=0,segundoNumeroS=0;
-		var fecha= new Date();
+		Date fecha= new Date();
 		int minutos=fecha.getMinutes();
 		int segundos= fecha.getSeconds();
 		int tamaS=segundos+2;
