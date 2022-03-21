@@ -22,10 +22,7 @@ private EmailService emailService;
 	public static void main(String[] args) {
 		SpringApplication.run(EnviarCApplication.class, args);
 	}
-	@PostConstruct
-	void started() {
-		TimeZone.setDefault(TimeZone.getTimeZone("UTC-5"));
-	}
+
 	@RequestMapping("/")
 	public String hola() {
 		return "Hola mundo" ;
