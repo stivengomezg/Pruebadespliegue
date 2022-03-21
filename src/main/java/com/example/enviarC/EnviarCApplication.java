@@ -15,7 +15,9 @@ import java.util.TimeZone;
 
 @SpringBootApplication
 @RestController
-public class EnviarCApplication {@Autowired
+public class EnviarCApplication {
+
+	@Autowired
 private EmailService emailService;
 
 
